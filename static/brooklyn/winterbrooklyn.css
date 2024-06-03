@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+}
+
+.container {
+    background-image: url('brooklynpictures/snowBG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    background: transparent; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav li {
+    margin-left: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; 
+    line-height: 80px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ccc; 
+}
+
+
+.logo {
+    height: 80px; 
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a, .dropbtn {
+    text-decoration: none;
+    color: white; 
+    font-size: 1.2em;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ccc; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%; 
+    background-color: rgb(166, 160, 160, 0.5); 
+    min-width: 160px;
+    box-shadow: none; 
+    z-index: 1;
+}
+
+.dropdown-content a {
+  color: white; 
+  padding: 22px 26px; 
+  text-decoration: none;
+  display: block;
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+  font-weight: 36px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.hero-content h1 {
+  color: white;
+  font-size: 4rem; 
+  font-weight: bold;
+  text-shadow:
+    1px 1px 0 #777,   
+    2px 2px 0 #777,
+    3px 3px 0 #777,
+    4px 4px 0 #777,
+    5px 5px 0 #777,
+    6px 6px 0 #777; 
+}
+
+#hero h1,
+#hero p {
+  transition: opacity 0.5s ease-out;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; 
+  text-align: center;
+}
+
+
+.hero-content p {
+  color: white;
+  font-size: 2rem; 
+  font-weight: bold;
+  text-shadow:
+    1px 1px 0 #777,   
+    2px 2px 0 #777,
+    3px 3px 0 #777; 
+}
+
+.events-title {
+  font-size: 3rem; 
+  color: #ffffff; 
+  text-shadow: 
+    1px 1px 0 #8c8c8c, 
+    2px 2px 0 #787878,
+    3px 3px 0 #5c5c5c, 
+    4px 4px 0 #454545, 
+    5px 5px 0 #2e2e2e, 
+    6px 6px 0 #212121, 
+    7px 7px 0 #0f0f0f; 
+  font-weight: bold;
+  margin-bottom: 1em; 
+  -webkit-text-stroke: 1px black; 
+}
+
+.event-subtitle {
+    font-size: 1.5em; 
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 #777, 2px 2px 0 #777; 
+    margin-top: 10px; 
+    font-weight: bold;
+    margin-bottom: 2em; 
+    -webkit-text-stroke: 1px black; 
+}
+
+.event-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.event a{
+  text-decoration: none;
+}
+
+.event {
+  width: 300px; 
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 1em;
+  margin: 1em;
+  text-align: center; 
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.event:hover {
+  transform: scale(1.1); 
+}
+
+#events {
+  text-align: center;
+  background-color: black;
+}
+
+.event-img {
+  width: 100%; 
+  height: auto; 
+  margin-bottom: 1em; 
+}
+
+.event-box {
+    padding: 20px; 
+}
+
+.event-box img {
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+
+.event-description {
+    padding-top: 10px;
+    font-size: 1em; 
+    margin-bottom: 10px; 
+    color:white;
+}
+
+.event-date {
+    font-size: 0.85em; 
+    color: #fafafa; 
+    margin-bottom: 15px; 
+    padding-top: 10px;
+}
+
+.event p, h3{
+  color: white;
+}
+
+#try-me-section {
+  text-align: center; 
+  margin: 2em 0; 
+  background-color:black
+}
+
+.events-try-me-button {
+  display: inline-block; 
+  padding: 10px 20px; 
+  font-size: 1.5em; 
+  color: #ffffff; 
+  background-color: #007bff; 
+  text-decoration: none; 
+  border: none; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+.eventstry-me-button:hover {
+  background-color: #0056b3; 
+}
+
+
+@keyframes blink{
+  0%{
+    border-right-color:transparent;
+  }
+  50%{
+    border-right-color:transparent;
+  }
+  51%{
+    border-right-color:#fff;
+  }
+  100%{
+    border-right-color:#fff;
+  }
+}
+
+canvas{
+  background:#000;
+  width:100%;
+  height:100%;
+}
+
+#snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; 
+  width: 100%;
+  height: 100%; 
+  pointer-events: none; 
+}
+
+
+.event-container {
+  position: relative; 
+  z-index: 0; 
+}
+
+
+.event {
+  position: relative; 
+  z-index: 1; 
+}
+
+#events .events-title, 
+#events .event-subtitle {
+  background-color: transparent !important; 
+}
+
+

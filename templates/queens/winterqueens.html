@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscoverNY - Queens</title>
+    <link rel="stylesheet" href="/static/queens/winterqueens.css">
+    <script src="/static/queens/winterqueens.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <nav class="navbar">
+            <img src="/static/home/Logo.png" alt="DiscoverNY Logo" class="logo">
+            <div class="menu">
+                <a href="{% url 'home' %}">Home</a>
+                <div class="dropdown">
+                  <a href="#destinations" class="dropbtn">Destinations</a>
+                    <div class="dropdown-content">
+                        <a href="{% url 'manhattan' %}">Manhattan</a>
+                        <a href="{% url 'brooklyn' %}">Brooklyn</a>
+                        <a href="{% url 'bronx' %}">The Bronx</a>
+                        <a href="{% url 'staten_island' %}">Staten Island</a>
+                    </div>
+                </div>
+            
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Queens</h1>
+            <p>The World's Borough</p>
+        </div>
+    </div>
+  </header>
+  </section>
+      <section id="events">
+        <h2 class="events-title">Events</h2>
+        <p class="event-subtitle">Special Events that occur during Colder Weather Seasons</p>
+        <div class="event-container">
+          <canvas id="snow"></canvas>
+          
+          <div class="event">
+              <a href="https://www.queensfarm.org/the-amazing-maize-maze/">
+                  <img src="/static/queens/queenspictures/maize.jpg" alt="The Amazing Maize Maze" class="event-img">
+                  <h3>The Amazing Maize Maze</h3>
+                  <p>Get lost in NYC's only corn maze at Queens County Farm Museum</p>
+                  <p class="event-date">Date: September 1st - October 31st</p>
+              </a>
+          </div>
+
+          
+          <div class="event">
+              <a href="https://queensbotanical.org/event/chuseok-korean-moon-festival/all/">
+                  <img src="/static/queens/queenspictures/moonfest.jpg" alt="Autumn Moon Festival" class="event-img">
+                  <h3>Autumn Moon Festival</h3>
+                  <p>Celebrate the Mid-Autumn Festival with traditional performances and activities at Queens Botanical Garden</p>
+                  <p class="event-date">Date: September 21st - October 21st</p>
+              </a>
+          </div>
+
+          
+          <div class="event">
+              <a href="https://winterlanternfestival.com/new-york/">
+                  <img src="/static/queens/queenspictures/winterlantern.jpg" alt="Winter Lantern Festival" class="event-img">
+                  <h3>Winter Lantern Festival</h3>
+                  <p>Experience dazzling lantern displays at Snug Harbor Cultural Center</p>
+                  <p class="event-date">Date: November 20th - January 9th</p>
+              </a>
+          </div>
+              
+          
+          <div class="event">
+              <a href="https://socratessculpturepark.org/program/halloween-harvest-festival-2024/">
+                  <img src="/static/queens/queenspictures/halloweenharvest.jpg" alt="Halloween Harvest Festival" class="event-img">
+                  <h3>Halloween Harvest Festival</h3>
+                  <p>Join in the spooky fun at Socrates Sculpture Park's Halloween Harvest Festival</p>
+                  <p class="event-date">Date: October 31st</p>
+              </a>
+          </div>
+
+              
+          </div>
+        </div>
+  </section>
+ 
+</body>
+</html>
