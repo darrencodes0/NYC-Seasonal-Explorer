@@ -13,3 +13,7 @@ Type the following command into terminal
 - python manage.py runserver 
 
 #### Collaborated with 2 group members: Emri and Istiak
+
+Home Page Preview:
+
+![home](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/4406e813-00b8-48c7-ac65-9088291b41ed)
