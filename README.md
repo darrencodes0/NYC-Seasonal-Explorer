@@ -4,10 +4,6 @@ By curating recommendations for events, activities, dining options, and more, th
 
 # Collaborated with 2 other members: Emri and Istiak
 
-## Setup
-Install all the dependencies:
-- pip install -r requirements.txt   
-
 ### To start Django Application
 Make sure your directory includes the website  
 (if not, change directory to website in the terminal):
