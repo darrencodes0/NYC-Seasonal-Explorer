@@ -4,6 +4,12 @@ Our goal is to create a dynamic, seasonal NYC city explorer that will give recom
 
 Our recommender includes 5 boroughs of NYC: Manhattan, The Bronx, Staten Island, Brooklyn, and Queens and it's various regions such as Upper East Side of Manhattan, Bushwick of Brooklyn, and etc.
 
+## Setup
+Install all the dependencies:
+- pip install -r requirements.txt
+
+! Make sure you activate the virtual environment before installing dependencies !
+
 ## To start Django Application
 Make sure your directory includes the website  
 (if not, change directory to website in the terminal):
