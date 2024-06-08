@@ -20,4 +20,3 @@ Home Page Preview:
 
 Recommender Preview:
 
-![recommendations](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/b341f80e-0c49-40fe-9797-b8ec5d548e08)
