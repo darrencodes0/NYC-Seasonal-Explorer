@@ -1,6 +1,6 @@
 # NYC Seasonal Explorer 
 
-By curating recommendations for events, activities, dining options, and more, this dynamic platform ensures that each visitor's stay harmonizes seamlessly with the distinctive charm of each season in the city.
+Our goal is to create a dynamic, seasonal NYC city explorer that will give recommendations tailored to users and their preferences. We strive to make our application as user-friendly and visually appealing as possible so new users will have no difficulty utilizing the extent of our application to its fullest
 
 # Collaborated with 2 other members: Emri and Istiak
 
