@@ -8,7 +8,7 @@ Our recommender includes 5 boroughs of NYC: Manhattan, The Bronx, Staten Island,
 Install all the dependencies:
 - pip install -r requirements.txt
 
-! Make sure you activate the virtual environment before installing dependencies !
+! Make sure you activate a virtual environment before installing dependencies !
 
 ## To start Django Application
 
