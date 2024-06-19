@@ -4,6 +4,8 @@ Our goal is to create a dynamic, seasonal NYC city explorer that will give recom
 
 Our recommender includes 5 boroughs of NYC: Manhattan, The Bronx, Staten Island, Brooklyn, and Queens and it's various regions such as Upper East Side of Manhattan, Bushwick of Brooklyn, and etc.
 
+This application was exported over from Replit and uploaded to this repostiory using Git
+
 ## Setup
 Install all the dependencies:
 - pip install -r requirements.txt
