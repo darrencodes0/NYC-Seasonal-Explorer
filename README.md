@@ -23,7 +23,13 @@ Type the following command into terminal
 Home Page Preview:
 
 ![home](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/4406e813-00b8-48c7-ac65-9088291b41ed)
+![NYC5](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/8302db18-964b-49ec-af4d-40e28a2c18c8)
 
 There are also individual pages for each borough with pre-recommended restaurants/events/hotels through the destinations drop-down menu and a seasonal winter themed page for each of them.
 
-If you want to get the full experience of NYC Seasonal Explorer, please try it out.
+Brooklyn Page Preview:
+
+![Brooklyn](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/a862005a-c5db-48e6-9922-ab49ffd4315b)
+![Brooklynevents](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/3afc9239-33b8-4470-ab59-b87c6b8ec163)
+
+These are just snippets of the website. If you want to get the full experience of NYC Seasonal Explorer, please try it out. 
