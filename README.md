@@ -22,4 +22,6 @@ Home Page Preview:
 
 ![home](https://github.com/darrencodes0/NYC-Seasonal-Explorer/assets/126924973/4406e813-00b8-48c7-ac65-9088291b41ed)
 
-If you want to get the full experience of NYC Seasonal Explorer, please try it out
+There are also individual pages for each borough with pre-recommended restaurants/events/hotels through the destinations drop-down menu and a seasonal winter themed page for each of them.
+
+If you want to get the full experience of NYC Seasonal Explorer, please try it out.
