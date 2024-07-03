@@ -18,7 +18,7 @@ Type the following command into terminal
 
 - python manage.py runserver 
 
-#### Collaborated with 2 group members: Emri and Istiak
+#### Collaborated with 2 members: Emri and Istiak
 
 #### Home Page Preview:
 
